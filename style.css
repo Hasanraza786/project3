@@ -1,0 +1,296 @@
+
+.header {
+    background-color: rgb(28, 94, 194);
+    min-height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 100%;
+}
+
+.left {
+    padding-left: 90px;
+}
+
+.center{
+    width: 500px;
+    color: white;
+}
+
+.right {
+    text-emphasis: right;
+    padding-left: 80px;
+}
+.header img{
+    padding-left: 15px;
+    height: 20px;
+    width: 40px;
+}
+button{
+    color: grey;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.section{
+    background-color: #f7f8fa;
+    heheight: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.carousel-inner{
+}
+.logo{
+    padding-left: 70px;
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.navbar {
+    overflow: hidden;
+    display: inline-block;
+    padding-right: 100px;
+    padding-top: 10px;
+}
+  
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbarcont {
+    float: left;
+    overflow: hidden;
+}
+  
+.navbarcont .navbarcontbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: grey;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+.navbarcont-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.navbarcont-content a {
+    float: none;
+    color: grey;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.navbarcont-content a:hover {
+        background-color: rgb(28, 94, 194);
+    color: white;
+}
+.navbarcont:hover .navbarcont-content {
+    display: block;
+}
+.marq {
+    height: 40px;
+    width: 90%;
+    margin: 0 auto;
+}
+marquee {
+    background-color: rgb(28, 94, 194);
+    color: white;
+    height: 20px;
+    text-align: center;
+    padding-left: 20px;
+}
+.introduction {
+    background-color: #f7f8fa;
+    width: 100%;
+    min-height: 600px;
+}
+.first{
+    color: blue;
+    font-size: 30px;
+}
+.scnd {
+    color: green;
+    font-size: 30px;
+}
+.text{
+    text-align: center;
+    padding-top: 70px;
+}
+.introcont {
+    text-align: center;
+}
+.para p {
+    text-align: center;
+    padding: 0px 50px;
+    margin-right: 60px;
+    margin-left: 60px;
+    color: grey;
+}
+.quantity {
+    background-color: rgb(11, 11, 247);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 300px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.quantxt {
+    color: white;
+    font-style: bold;
+}
+.mon {
+    color: lime;
+    font-style: bold;
+}
+.quantitycont{
+    margin: 50px;  
+}
+.quantitycont p {
+    font-size: 50px;
+    color: white;
+}
+.work {
+    background-color: #f7f8fa;
+    width: 100%;
+    min-height: 800px;
+}
+.firstrow{
+    text-align: center;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.secondrow{
+    text-align: center;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.workcont {
+    background-color: white;
+    margin: 5px 10px 5px 10px;
+    max-height: 200px;
+    width: 300px;
+    padding: 60px;
+    box-shadow: 1px 1px 1px 1px grey;
+}
+.box-image{
+    height: 60px;
+    width: 55px;
+}
+.workcont p {
+    color: rgb(28, 94, 194);
+}
+.mission {
+    min-height:300px ;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.mission h1 {
+    color: rgb(28, 94, 194);
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 60px;
+}
+.missioncont {
+    display: inline-block;
+    width: 60%;
+}
+.missionDivLeft{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+    margin-top: 20px;
+    padding: 20px;
+}
+.abc {
+    background-color:#f7f8fa ;
+    width: 300px;
+    height: 70px;
+    margin-left: 50px;
+    /* display: inline-block; */
+    display: flex;
+    align-items: center;
+}
+.missioncont p {
+    color: red;
+    font-size: 20px;
+    /* display: inline-block ; */
+}
+.upcoming {
+    /* display: inline-block; */
+    width: 28%;
+}
+.upcoming h1 {
+    color: rgb(28, 94, 194);
+}
+.imagegallery {
+    flex-wrap: wrap;
+    min-height: 500px;
+}
+.imagegallery img{
+    margin-top: 12px;
+}
+.imagegallery span {
+    font-size: 40px;
+}
+.gallery {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer {
+    background-color: rgb(37, 39, 46);
+    min-height: 400px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.footer p{
+    color: grey;
+    text-align: center;
+}
+.footer h3 {
+    color: white;
+    text-align: center;
+}
+.footerright {
+    margin-right: 80px;
+    margin-top: 20px;
+}
+.footerleft {
+    margin-top: 20px;
+}
+.footermid {
+    margin-top: 20px;
+}
+.usefull{
+    border-bottom: 1px solid yellow;
+    padding-bottom: 8px;
+}
